@@ -85,7 +85,7 @@ namespace Registration.Controllers
             client.EnableSsl = true;
             client.UseDefaultCredentials = false;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
-            client.Credentials = new System.Net.NetworkCredential("kamoklekchyan@gmail.com", "password");
+            client.Credentials = new System.Net.NetworkCredential("kamoklekchyan@gmail.com", "passw0rd");
             try
             {
                 client.Send(mail);
